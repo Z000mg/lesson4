@@ -20,7 +20,6 @@ public class IssueTests {
         $(By.linkText(SearchFor)).click();
         $(withText("Issues")).click();
         $(withText("#" + IssueNumber)).should(Condition.exist);
-        er
     }
 }
 
