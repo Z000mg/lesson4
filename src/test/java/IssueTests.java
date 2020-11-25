@@ -8,9 +8,8 @@ import static com.codeborne.selenide.Selenide.open;
 
 public class IssueTests {
 
-    private static String Repo = "Z000mg/lesson4";
-    private static String User = "Z000mg";
-    private static int IssueNumber = 1;
+    private static final String Repo = "Z000mg/lesson4";
+    private static final int IssueNumber = 1;
 
     @Test
     public void searchForIssue () {
