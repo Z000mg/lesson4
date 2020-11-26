@@ -107,6 +107,7 @@ public class AnnotationStepTests {
             $("#show_issue").shouldHave(text(comment));
             $(".TimelineItem-body").shouldHave(text(myName));
             $("#show_issue").shouldHave(text(label));
+            closeWindow();
         }
     }
 }

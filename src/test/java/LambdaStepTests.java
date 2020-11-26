@@ -72,6 +72,7 @@ public class LambdaStepTests {
             $("#show_issue").shouldHave(text(comment));
             $(".TimelineItem-body").shouldHave(text(name));
             $("#show_issue").shouldHave(text(label));
+            closeWindow();
         });
     }
 }
